@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Binary
+mattermost-mcp-server
+mcp-server
+
+# Log files
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+
+# Internal tracking and QA (not for repo)
+.sisyphus/
+.opencode/
+evidence/
+final-qa/
+
+# Test reports (generated)
+*test_report*.md
+*test_results*.md
+*token_test*.md
+
+# Backup files
+*.backup
+*.bak
+
+# Environment files
+.env
+.env.local
